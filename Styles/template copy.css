@@ -12,10 +12,8 @@ body {
 li, a, button{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-    font-style: 16px;
     color: #24252A;
     text-decoration: none;
-    margin-right:px;
 }
 .header{
     background: #ffffff;
@@ -28,8 +26,9 @@ li, a, button{
 }
 
 .logo{
-    width: 425px;
-    height: 100px;
+    margin: 15px 0px 0px 10px;
+    width: 301px;
+    height: 71px;
 }
 
 nav {
@@ -39,11 +38,12 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin-left: 0;
-    padding: 0;
     overflow: hidden;
 }
 
+.nav_links{
+    list-style: none;
+}
 
 .nav_links li{
     display: inline-block;
@@ -59,10 +59,11 @@ nav ul {
 }
 
 nav li a {
+    margin: 5px 0px;
     display: block;
     text-decoration: none;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     color: #24252a;
 }
 
@@ -78,11 +79,12 @@ button{
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin: 0px 50px 0px 25px;
+    margin: 25px 50px 0px 25px;
 }
 
-.button a{
-    color:rgb(0, 0, 0);
+.button a:hover{
+    background-color: rgb(23, 126, 138);
+    
 }
 
 .intro{
