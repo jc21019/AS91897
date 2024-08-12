@@ -72,14 +72,14 @@ nav li a {
 }
 
 button{
-    padding: 14px 24px;
+    padding: 10px 20px;
     background-color: rgb(41, 171, 185);
     border: none;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin: 25px 50px 0px 25px;
+    margin: 31px 50px 0px 25px;
 }
 
 .button a:hover{
