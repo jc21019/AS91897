@@ -1,0 +1,127 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    background-size: cover;
+}
+
+#page_container {
+    width: 1440px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
+    overflow-x: hidden;
+}
+li, a, button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #24252A;
+    text-decoration: none;
+}
+.header{
+    background: #ffffff;
+    display:flex;
+    justify-content:space-between;
+    align-content: center;
+    height: 100px;
+    width: 1440px;
+    margin: -8px 0px;
+    border-bottom: 5px solid rgba(167,175,175,1);
+    position: fixed;
+}
+
+
+.logo{
+    margin: 15px 0px 0px 10px;
+    width: 301px;
+    height: 71px;
+}
+
+nav {
+    clear: both;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 20px 24px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: rgb(41, 171, 185);
+}
+
+nav li a {
+    margin: 5px 0px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: #24252a;
+}
+
+.navbar a:hover{
+    background: white;
+}
+
+button{
+    padding: 10px 20px;
+    color: rgb(71, 71, 71);
+    background-color: rgb(41, 171, 185);
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 31px 50px 0px 25px;
+}
+
+button a{
+    transition: all 0.3s ease 0s;
+}
+
+button a:hover{
+    background-color: rgb(41, 171, 185);
+    color: rgb(164, 226, 233);
+    
+}
+
+.intro{
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.info1{
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.info2{
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.info3{
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    overflow: hidden;
+}.info4{
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    overflow: hidden;
+}

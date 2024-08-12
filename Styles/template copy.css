@@ -21,9 +21,12 @@ li, a, button{
     justify-content:space-between;
     align-content: center;
     height: 100px;
-    padding: 30px 10;
+    width: 1440px;
+    margin: -8px 0px;
     border-bottom: 5px solid rgba(167,175,175,1);
+    position: fixed;
 }
+
 
 .logo{
     margin: 15px 0px 0px 10px;
@@ -73,17 +76,22 @@ nav li a {
 
 button{
     padding: 10px 20px;
+    color: rgb(71, 71, 71);
     background-color: rgb(41, 171, 185);
     border: none;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
     margin: 31px 50px 0px 25px;
 }
 
-.button a:hover{
-    background-color: rgb(23, 126, 138);
+button a{
+    transition: all 0.3s ease 0s;
+}
+
+button a:hover{
+    background-color: rgb(41, 171, 185);
+    color: rgb(164, 226, 233);
     
 }
 
