@@ -127,11 +127,10 @@ button a:hover{
 }
 
 footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
+width: 1440px;
+height: 298px;
 background-color: red;
 color: white;
 text-align: center;
+justify-content: center;
 }
