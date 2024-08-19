@@ -103,37 +103,39 @@ button a:hover{
     
 }
 
-.intro{
-    height: 600px;
-    background: grey;
-    border: 1px solid black;
+.intro {
+    height: 870px;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* Adjust the RGBA values to control color and opacity */
+        url("resources/Lake-Pupuke/our\ geography1.jpeg") no-repeat center/cover;
     overflow: hidden;
     clear: both;
     padding-top: 105px;
 }
 
-.info1{
+.about-us{
+    height: 780px;
+    background: rgb(174, 219, 214);
+    border: 1px solid black;
+    overflow: hidden;
+    clear: both;
+}
+
+.poem{
     height: 600px;
     background: grey;
     border: 1px solid black;
     overflow: hidden;
     clear: both;
 }
-.info2{
+.img-gallery{
     height: 600px;
     background: grey;
     border: 1px solid black;
     overflow: hidden;
     clear: both;
 }
-.info3{
-    height: 600px;
-    background: grey;
-    border: 1px solid black;
-    overflow: hidden;
-    clear: both;
-}
-.info4{
+.others{
     height: 600px;
     background: grey;
     border: 1px solid black;
