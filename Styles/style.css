@@ -49,7 +49,8 @@ nav {
 nav ul {
     list-style-type: none;
     overflow: hidden;
-    margin: 17px 0 0 0;
+    margin: 17px 120px 0 0;
+
 }
 
 .nav_links{
@@ -104,14 +105,28 @@ button a:hover{
 }
 
 .intro {
-    height: 870px;
+    height: 960px;
     background: 
-        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* Adjust the RGBA values to control color and opacity */
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url("resources/Lake-Pupuke/our\ geography1.jpeg") no-repeat center/cover;
     overflow: hidden;
     clear: both;
-    padding-top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+.intro h2 {
+    font-size: 100px;
+    color: rgb(126, 230, 230);
+    margin: 0;
+}
+
+.intro h4 { 
+    color: #fff;
+}
+
 
 .about-us{
     height: 780px;
@@ -119,6 +134,11 @@ button a:hover{
     border: 1px solid black;
     overflow: hidden;
     clear: both;
+    
+}
+
+.about-us h2{
+    background: #fff;
 }
 
 .poem{
