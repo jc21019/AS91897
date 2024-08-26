@@ -183,7 +183,7 @@ button a:hover{
     background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5   )),
     url("resources/Rangitoto-Island/2740175257_71e703fde3_k.jpg") no-repeat center/cover;
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     clear: both;
     text-align: center;
 
