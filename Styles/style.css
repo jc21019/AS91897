@@ -136,6 +136,11 @@ button a:hover{
     font-size: 43px;
 }
 
+.anchor{
+    height: 80px;
+    opacity: 0%;
+    margin: -80px 0 0 0;
+}
 
 .about-us{
     height: 820px;

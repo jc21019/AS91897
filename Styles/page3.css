@@ -205,10 +205,9 @@ button a:hover{
 }
 
 .anchor{
-    height: 1px;
-    clear: both;
-    padding-top: 80px;
-    overflow: hidden;
+    height: 80px;
+    opacity: 0%;
+    margin: -80px 0 0 0;
 }
 
 .intro-2{
