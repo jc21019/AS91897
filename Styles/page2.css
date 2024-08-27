@@ -105,67 +105,220 @@ button a:hover{
 }
 
 .intro {
-    height: 960px;
+    height: 400px;
     background: 
-        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("resources/Lake-Pupuke/our\ geography1.jpeg") no-repeat center/cover;
-    overflow: hidden;
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("resources/Lake-Pupuke/4403859836_116c583ee9_o.jpg") no-repeat center/cover;
     clear: both;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 0 0 0 0px;
+}
+
+.intro-box{
+    height: 400px;
+    width: 100%;
+}
+
+.title{
+    margin: 0;
     text-align: center;
 }
 
-.intro h2 {
-    font-size: 100px;
+.title h2{
+    font-size: 120px;
     color: rgb(126, 230, 230);
-    margin: 0;
+    margin: 150px 0 0 0;
 }
 
-.intro h4 { 
-    color: #fff;
-}
-
-
-.about-us{
-    height: 780px;
+.pupuke-info{
+    height: 2570px;
     background: rgb(174, 219, 214);
-    border: 1px solid black;
     overflow: hidden;
     clear: both;
-    
 }
 
-.about-us h2{
-    background: #fff;
+.pupuke-info-box{
+    height: 2500px;
+    background: #ffffff;
+    margin: 35px;
+    border-radius: 30px;
 }
 
-.poem{
+.pupuke-info h2{
+    font-size: 40px;
+}
+.pupuke-info h3{
+    font-size: 30px;
+}
+.pupuke-info p{
+    font-size: 25px;
+    color: rgb(0, 64, 71);
+}
+
+.section-1{
+    width: 600px;
+    margin: 35px 0 0 35px;
+    float: left;
+}
+
+.section-2{
+    width: 850px;
+    height: 525px;
+    margin: 120px 35px 0 35px;
+    border-radius: 30px;
+    float: right;
+    background: url("resources/Lake-Pupuke/4403095001_1e47703d48_o.jpg") no-repeat center/cover;
+}
+.section-3{
+    margin: 60px 35px 35px 35px;
+    float: left;
+}
+.section-4{
+    width: 800px;
+    height: 450px;
+    margin: 25px 35px 35px 35px;
+    border-radius: 30px;
+    float: left;
+    background: url("resources/Lake-Pupuke/4628694870_48acba76de_k.jpg") no-repeat center/cover;
+}
+.section-5{
+    margin: 15px 35px 35px 0px;
+    width: 650px;
+    height: 450px;
+    float: left;
+}
+.section-6{
+    margin: 25px 35px 0 35px;
+    width: 650px;
+    float: left;
+   
+}
+.section-7{
+    width: 820px;
     height: 600px;
-    background: grey;
-    border: 1px solid black;
+    margin: 35px 35px 0 0;
+    border-radius: 30px;
+    float: right;
+    background: url("resources/Lake-Pupuke/lake\ Takapuna\ 1930.webp") no-repeat center/cover;
+}
+
+.section-8{
+    margin: 25px 35px 0 35px;
+    float: left;
+}
+
+.anchor{
+    height: 1px;
+    clear: both;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.intro-2{
+    height: 320px;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("resources/Rangitoto-Island/2740175257_71e703fde3_k.jpg") no-repeat center/cover;
+    clear: both;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 0px;
+}
+
+.intro-box-2{
+    height: 320px;
+    width: 100%;
+}
+
+.title-2{
+    margin: 0;
+    text-align: center;
+}
+
+.title-2 h2{
+    font-size: 120px;
+    color: rgb(126, 230, 230);
+    margin: 75px 0 0 0;
+}
+
+.rangitoto-info{
+    height: 3110px;
+    background: rgb(174, 219, 214);
     overflow: hidden;
     clear: both;
 }
-.img-gallery{
-    height: 600px;
-    background: grey;
-    border: 1px solid black;
-    overflow: hidden;
-    clear: both;
+
+.rangitoto-info-box{
+    height: 3040px;
+    background: #ffffff;
+    margin: 35px;
+    border-radius: 30px;
 }
-.others{
-    height: 600px;
-    background: grey;
-    border: 1px solid black;
-    overflow: hidden;
-    clear: both;
+
+.rangitoto-info h2{
+    font-size: 40px;
+}
+.rangitoto-info h3{
+    font-size: 30px;
+}
+.rangitoto-info p{
+    font-size: 25px;
+    color: rgb(0, 64, 71);
+}
+
+.section2-1{
+    width: 600px;
+    margin: 35px 0 0 35px;
+    float: left;
+}
+
+.section2-2{
+    width: 850px;
+    height: 645px;
+    margin: 120px 35px 0 35px;
+    border-radius: 30px;
+    float: right;
+    background: url("resources/Rangitoto-Island/Rangitoto_\(1395366679\).jpg") no-repeat center/cover;
+}
+.section2-3{
+    margin: 60px 35px 35px 35px;
+    float: left;
+}
+.section2-4{
+    width: 95.5%;
+    height: 700px;
+    margin: 0 35px 0 35px;
+    border-radius: 30px;
+    float: left;
+    background: url("resources/Rangitoto-Island/1024px-Rangitoto_Island.jpg") no-repeat center/cover;
+}
+.section2-5{
+    margin: 60px 35px 35px 35px;
+    float: left;
+}
+.section2-6{
+    margin: 0px 35px 35px 35px;
+    float: left;
+    height: 500px;
+    width: 850px;
+    border-radius: 30px;
+    background: url("resources/Rangitoto-Island/31234016141_e67f1b4a3d_b.jpg") no-repeat center/cover;
+}
+.section2-7{
+    margin: 0px 35px 35px 0px;
+    float: right;
+    width: 620px;
+}
+.section2-8{
+    margin: 0px 35px 35px 35px;
+    float: left;
 }
 
 .footer{
     padding: 40px;
     background-color: #fff;
+    border-top: 1px solid lightgray;
 }
 
 .footer .social{

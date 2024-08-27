@@ -132,14 +132,14 @@ button a:hover{
 }
 
 .waitemata-info{
-    height: 2720px;
+    height: 2770px;
     background: rgb(174, 219, 214);
     overflow: hidden;
     clear: both;
 }
 
 .waitemata-info-box{
-    height: 2650px;
+    height: 2700px;
     background: #ffffff;
     margin: 35px;
     border-radius: 30px;
@@ -158,21 +158,20 @@ button a:hover{
 
 .section-1{
     width: 600px;
-    height: 500px;
     margin: 35px 0 0 35px;
     float: left;
 }
 
 .section-2{
     width: 850px;
-    height: 500px;
-    margin: 35px 35px 0 35px;
+    height: 425px;
+    margin: 120px 35px 0 35px;
     border-radius: 30px;
     float: right;
     background: url("resources/Waitemata-harbour/1024px-Bench_overlooking_the_Waitemata_Harbour\,_Auckland_-_0088.jpg") no-repeat center/cover;
 }
 .section-3{
-    margin: 35px;
+    margin: 60px 35px 35px 35px;
     float: left;
 }
 .section-4{
@@ -184,7 +183,7 @@ button a:hover{
     background: url("resources/Waitemata-harbour/1024px-Waitematā_Harbour_Eastwards_View.jpg") no-repeat center/cover;
 }
 .section-5{
-    margin: 35px;
+    margin: 60px 35px 35px 35px;
     float: left;
 }
 .section-6{
@@ -236,14 +235,14 @@ button a:hover{
 }
 
 .ngati-info{
-    height: 2095px;
+    height: 2130px;
     background: rgb(174, 219, 214);
     overflow: hidden;
     clear: both;
 }
 
 .ngati-info-box{
-    height: 2025px;
+    height: 2060px;
     background: #ffffff;
     margin: 35px;
     border-radius: 30px;
@@ -269,14 +268,14 @@ button a:hover{
 
 .section2-2{
     width: 850px;
-    height: 500px;
-    margin: 35px 35px 0 35px;
+    height: 425px;
+    margin: 120px 35px 0 35px;
     border-radius: 30px;
     float: right;
     background: url("resources/Rangitoto-Island/25532825031_8426877ed9_k.jpg") no-repeat center/cover;
 }
 .section2-3{
-    margin: 35px;
+    margin: 60px 35px 35px 35px;
     float: left;
 }
 .section2-4{
