@@ -201,9 +201,15 @@ button a:hover{
     float: right;
 }
 
+.anchor{
+    height: 1px;
+    clear: both;
+    padding-top: 80px;
+    overflow: hidden;
+}
 
 .intro-2{
-    height: 310px;
+    height: 320px;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("resources/Waitemata-harbour/1024px-Waitemata_Harbour-mouth_aerial.jpg") no-repeat center/cover;
@@ -214,7 +220,7 @@ button a:hover{
 }
 
 .intro-box-2{
-    height: 310px;
+    height: 320px;
     width: 100%;
 }
 
