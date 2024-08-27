@@ -117,7 +117,6 @@ button a:hover{
 
 .intro-box{
     height: 400px;
-    border: 1px solid red;
     width: 100%;
 }
 
@@ -132,17 +131,79 @@ button a:hover{
     margin: 150px 0 0 0;
 }
 
-.about-us{
-    height: 780px;
+.waitemata-info{
+    height: 2720px;
     background: rgb(174, 219, 214);
-    border: 1px solid black;
     overflow: hidden;
     clear: both;
-    
 }
 
+.waitemata-info-box{
+    height: 2650px;
+    background: #ffffff;
+    margin: 35px;
+    border-radius: 30px;
+}
+
+.waitemata-info h2{
+    font-size: 40px;
+}
+.waitemata-info h3{
+    font-size: 30px;
+}
+.waitemata-info p{
+    font-size: 25px;
+    color: rgb(0, 64, 71);
+}
+
+.section-1{
+    width: 600px;
+    height: 500px;
+    margin: 35px 0 0 35px;
+    float: left;
+}
+
+.section-2{
+    width: 850px;
+    height: 500px;
+    margin: 35px 35px 0 35px;
+    border-radius: 30px;
+    float: right;
+    background: url("resources/Waitemata-harbour/1024px-Bench_overlooking_the_Waitemata_Harbour\,_Auckland_-_0088.jpg") no-repeat center/cover;
+}
+.section-3{
+    margin: 35px;
+    float: left;
+}
+.section-4{
+    width: 95.5%;
+    height: 800px;
+    margin: 0 35px 0 35px;
+    border-radius: 30px;
+    float: left;
+    background: url("resources/Waitemata-harbour/1024px-Waitematā_Harbour_Eastwards_View.jpg") no-repeat center/cover;
+}
+.section-5{
+    margin: 35px;
+    float: left;
+}
+.section-6{
+    width: 800px;
+    height: 550px;
+    margin: 0 35px;
+    border-radius: 30px;
+    float: left;
+    background: url("resources/Waitemata-harbour/15845227080_85557857ea_6k.jpg") no-repeat center/cover;
+}
+.section-7{
+    margin: 0 35px 0 0;
+    width: 650px;
+    float: right;
+}
+
+
 .intro-2{
-    height: 360px;
+    height: 310px;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("resources/Waitemata-harbour/1024px-Waitemata_Harbour-mouth_aerial.jpg") no-repeat center/cover;
@@ -152,27 +213,74 @@ button a:hover{
     padding: 0 0 0 0px;
 }
 
+.intro-box-2{
+    height: 310px;
+    border: 1px solid red;
+    width: 100%;
+}
 
-.poem{
-    height: 600px;
-    background: grey;
-    border: 1px solid black;
+.title-2{
+    margin: 0;
+    text-align: center;
+}
+
+.title-2 h2{
+    font-size: 120px;
+    color: rgb(126, 230, 230);
+    margin: 75px 0 0 0;
+}
+
+.ngati-info{
+    height: 2095px;
+    background: rgb(174, 219, 214);
     overflow: hidden;
     clear: both;
 }
-.img-gallery{
-    height: 600px;
-    background: grey;
-    border: 1px solid black;
-    overflow: hidden;
-    clear: both;
+
+.ngati-info-box{
+    height: 2025px;
+    background: #ffffff;
+    margin: 35px;
+    border-radius: 30px;
 }
-.others{
-    height: 600px;
-    background: grey;
-    border: 1px solid black;
-    overflow: hidden;
-    clear: both;
+
+.ngati-info h2{
+    font-size: 40px;
+}
+.ngati-info h3{
+    font-size: 30px;
+}
+.ngati-info p{
+    font-size: 25px;
+    color: rgb(0, 64, 71);
+}
+
+.section2-1{
+    width: 600px;
+    height: 500px;
+    margin: 35px 0 0 35px;
+    float: left;
+}
+
+.section2-2{
+    width: 850px;
+    height: 500px;
+    margin: 35px 35px 0 35px;
+    border-radius: 30px;
+    float: right;
+    background: url("resources/Rangitoto-Island/25532825031_8426877ed9_k.jpg") no-repeat center/cover;
+}
+.section2-3{
+    margin: 35px;
+    float: left;
+}
+.section2-4{
+    width: 95.5%;
+    height: 800px;
+    margin: 0 35px 0 35px;
+    border-radius: 30px;
+    float: left;
+    background: url("resources/Waitemata-harbour/1024px-Auckland_Harbour_View_20_\(5642826932\).jpg") no-repeat center/cover;
 }
 
 .footer{
