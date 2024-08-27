@@ -215,7 +215,6 @@ button a:hover{
 
 .intro-box-2{
     height: 310px;
-    border: 1px solid red;
     width: 100%;
 }
 
@@ -286,6 +285,7 @@ button a:hover{
 .footer{
     padding: 40px;
     background-color: #fff;
+    border-top: 1px solid lightgray;
 }
 
 .footer .social{
