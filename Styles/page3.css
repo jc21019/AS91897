@@ -33,6 +33,10 @@ li, a, button{
     position: fixed;
 }
 
+.header p{
+    margin: -25px 0 0 93px;
+    color:rgb(190, 215, 215);
+}
 
 .logo{
     margin: 15px 0px 0px 10px;
