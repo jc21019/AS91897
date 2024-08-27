@@ -248,12 +248,78 @@ button:hover{
     overflow: hidden;
     clear: both;
 }
+
 .others{
-    height: 600px;
-    background: grey;
-    border: 1px solid black;
+    height: 400px;
+    background: rgb(174, 219, 214);
     overflow: hidden;
     clear: both;
+    align-content: center;
+    text-align: center;
+}
+
+.others h2{
+    font-size: 50px;
+    color: rgb(190, 215, 215);
+    margin: 70px 0 0 0;
+}
+
+.others p{
+    font-size: 20px;
+    color: rgb(190, 215, 215);
+    margin: 97px 0 0 0;
+    padding: 20px 0 20px 0;
+    border-radius: 0 0 5px 5px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.box-1{
+    width: 360px;
+    height: 300px;
+    border-radius: 5px;
+    align-content: center;
+    margin: 30px 20px 30px 40px;
+    float: left;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("resources/Lake-Pupuke/4403859836_116c583ee9_o.jpg") no-repeat center/cover;
+}
+
+.box-2{
+    width: 360px;
+    height: 300px;
+    border-radius: 5px;
+    align-content: center;
+    margin: 30px 20px 30px 20px;
+    float: left;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("resources/Rangitoto-Island/2740175257_71e703fde3_k.jpg") no-repeat center/cover;
+    
+}
+
+.box-3{
+    width: 360px;
+    height: 300px;
+    border-radius: 5px;
+    align-content: center;
+    margin: 30px 20px 30px 20px;
+    float: left;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("resources/Waitemata-harbour/7175925345_3ea2ec0971_5k.jpg") no-repeat center/cover;
+}
+
+.box-4{
+    width: 360px;
+    height: 300px;
+    border-radius: 5px;
+    align-content: center;
+    margin: 30px 40px 30px 20px;
+    float: right;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("resources/Waitemata-harbour/1024px-Waitemata_Harbour-mouth_aerial.jpg") no-repeat center/cover;
 }
 
 .footer{
