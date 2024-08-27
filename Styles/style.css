@@ -241,12 +241,58 @@ button:hover{
     font-size: 40px;
     color: #fff;
 }
+
 .img-gallery{
-    height: 600px;
+    height: 1500px;
     background: rgb(255, 255, 255);
     border: 1px solid black;
     overflow: hidden;
     clear: both;
+}
+
+.img-gallery h2{
+    font-size: 70px;
+    margin: 60px 0 0 50px;
+
+}
+.photo-1{
+    width: 300px;
+    height:300px;
+    border: 1px solid red;
+    margin: 20px 20px 20px 20px;
+    float: left;
+}
+
+.photo-2{
+    width: 300px;
+    height:300px;
+    border: 1px solid red;
+    margin: 20px 20px 20px 20px;
+    float: left;
+}
+
+.photo-3{
+    width: 300px;
+    height:300px;
+    border: 1px solid red;
+    margin: 20px 20px 20px 20px;
+    float: left;
+}
+
+.photo-4{
+    width: 300px;
+    height:300px;
+    border: 1px solid red;
+    margin: 20px 20px 20px 20px;
+    float: left;
+}
+
+.more-photo{
+    width: 300px;
+    height:300px;
+    border: 1px solid red;
+    margin: 20px 20px 20px 20px;
+    float: left;
 }
 
 .others{
