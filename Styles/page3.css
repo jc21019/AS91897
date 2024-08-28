@@ -148,18 +148,18 @@ button:hover{
 }
 
 .waitemata-info h2{
-    font-size: 40px;
+    font-size: 60px;
 }
 .waitemata-info h3{
-    font-size: 30px;
+    font-size: 40px;
 }
 .waitemata-info p{
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(0, 64, 71);
 }
 
 .section-1{
-    width: 600px;
+    width: 870px;
     margin: 35px 0 0 35px;
     float: left;
 }
@@ -251,18 +251,18 @@ button:hover{
 }
 
 .ngati-info h2{
-    font-size: 40px;
+    font-size: 60px;
 }
 .ngati-info h3{
-    font-size: 30px;
+    font-size: 40px;
 }
 .ngati-info p{
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(0, 64, 71);
 }
 
 .section2-1{
-    width: 600px;
+    width: 870px;
     height: 500px;
     margin: 35px 0 0 35px;
     float: left;
