@@ -218,6 +218,7 @@ button:hover{
     border: 1px solid rgba(0, 0, 0, 1);
     clear: both;
     text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -330,6 +331,7 @@ button:hover{
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("resources/Waitemata-harbour/1024px-Bench_overlooking_the_Waitemata_Harbour\,_Auckland_-_0088.jpg") no-repeat center/cover;
 }
+
 
 .others{
     height: 400px;
