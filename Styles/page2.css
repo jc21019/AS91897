@@ -134,32 +134,32 @@ button:hover{
 }
 
 .pupuke-info{
-    height: 2845px;
+    height: 2625px;
     background: rgb(174, 219, 214);
     overflow: hidden;
     clear: both;
 }
 
 .pupuke-info-box{
-    height: 2775px;
+    height: 2555px;
     background: #ffffff;
     margin: 35px;
     border-radius: 30px;
 }
 
 .pupuke-info h2{
-    font-size: 60px;
-}
-.pupuke-info h3{
     font-size: 40px;
 }
-.pupuke-info p{
+.pupuke-info h3{
     font-size: 30px;
+}
+.pupuke-info p{
+    font-size: 25px;
     color: rgb(0, 64, 71);
 }
 
 .section-1{
-    width: 870px;
+    width: 600px;
     margin: 35px 0 0 35px;
     float: left;
 }
@@ -186,13 +186,13 @@ button:hover{
 }
 .section-5{
     margin: 15px 35px 35px 0px;
-    width: 750px;
+    width: 560px;
     height: 460px;
     float: left;
 }
 .section-6{
     margin: 25px 35px 0 35px;
-    width: 900px;
+    width: 650px;
     float: left;
    
 }
@@ -245,32 +245,32 @@ button:hover{
 }
 
 .rangitoto-info{
-    height: 3435px;
+    height: 3145px;
     background: rgb(174, 219, 214);
     overflow: hidden;
     clear: both;
 }
 
 .rangitoto-info-box{
-    height: 3365px;
+    height: 3080px;
     background: #ffffff;
     margin: 35px;
     border-radius: 30px;
 }
 
 .rangitoto-info h2{
-    font-size: 60px;
-}
-.rangitoto-info h3{
     font-size: 40px;
 }
-.rangitoto-info p{
+.rangitoto-info h3{
     font-size: 30px;
+}
+.rangitoto-info p{
+    font-size: 25px;
     color: rgb(0, 64, 71);
 }
 
 .section2-1{
-    width: 870px;
+    width: 600px;
     margin: 35px 0 0 35px;
     float: left;
 }
@@ -310,7 +310,7 @@ button:hover{
 .section2-7{
     margin: 0px 35px 35px 0px;
     float: right;
-    width: 870px;
+    width: 620px;
 }
 .section2-8{
     margin: 0px 35px 35px 35px;
