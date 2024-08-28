@@ -243,56 +243,92 @@ button:hover{
 }
 
 .img-gallery{
-    height: 1500px;
     background: rgb(255, 255, 255);
-    border: 1px solid black;
     overflow: hidden;
     clear: both;
+    justify-content: center;
+    display: flex;
+}
+
+.img-gallery-title{
+    font-size: 50px;
+    margin: 40px 0 0 40px;
 }
 
 .img-gallery h2{
     font-size: 70px;
-    margin: 60px 0 0 50px;
+    margin: 0;
+}
 
+.img-gallery-box{
+    width: 1450px;
+    margin: 120px 60px;
+}
+
+.img-gallery h2{
+    font-size: 85px;
+    color: #ffffff;
+    text-align: center;
+    margin: 90px 0 0 10px;
+}
+
+.img-gallery p{
+    font-size: 20px;
+    color: #E5FFFC;
+    margin: 0 0 0 0;
+    padding: 20px 0 20px 50px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.tall-photo p{
+    margin: 583px 0 0 0;
+}
+
+.short-photo p{
+    margin: 233.5px 0 0 0;
 }
 .photo-1{
-    width: 300px;
-    height:300px;
-    border: 1px solid red;
-    margin: 20px 20px 20px 20px;
+    width:1050px;
+    height:650px;
     float: left;
+    background: 
+    url("resources/Rangitoto-Island/rangitoto-volcano-nz.jpg") no-repeat center/cover;
 }
 
 .photo-2{
-    width: 300px;
-    height:300px;
-    border: 1px solid red;
-    margin: 20px 20px 20px 20px;
-    float: left;
+    width: 350px;
+    height:650px;
+    float: right;
+    background: 
+    url("resources/Rangitoto-Island/1024px-Rangitoto_Lighthouse.jpg") no-repeat center/cover;
 }
 
 .photo-3{
-    width: 300px;
+    width: 449px;
     height:300px;
-    border: 1px solid red;
-    margin: 20px 20px 20px 20px;
+    margin: 50px 50px 0 0;
     float: left;
+    background: 
+    url("resources/Rangitoto-Island/5334716394_01f2041445_b.jpg") no-repeat center/cover;
 }
 
 .photo-4{
-    width: 300px;
+    width: 449px;
     height:300px;
-    border: 1px solid red;
-    margin: 20px 20px 20px 20px;
+    margin: 50px 0 0 0;
     float: left;
+    background: 
+    url("resources/Waitemata-harbour/1024px-Waitematā_Harbour_Eastwards_View.jpg") no-repeat center/cover;
 }
 
 .more-photo{
-    width: 300px;
+    width: 450px;
     height:300px;
-    border: 1px solid red;
-    margin: 20px 20px 20px 20px;
-    float: left;
+    margin: 50px 0 0 0;
+    float: right;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("resources/Waitemata-harbour/1024px-Bench_overlooking_the_Waitemata_Harbour\,_Auckland_-_0088.jpg") no-repeat center/cover;
 }
 
 .others{
