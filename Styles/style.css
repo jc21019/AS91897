@@ -355,6 +355,8 @@ button:hover{
     background: rgba(0, 0, 0, 0.7);
 }
 
+.site-box{
+}
 .box-1{
     width: 360px;
     height: 300px;
@@ -436,7 +438,6 @@ button:hover{
     margin-top: 0;
     padding: 0;
     list-style: none;
-    font-size: 1.6;
     margin-bottom: 0;
     text-align: center;
     color: #24252A;
