@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,13 +31,8 @@ li, a, button{
     margin: -8px 0 30px 0;
     border-bottom: 5px solid rgba(167,175,175,1);
     position: fixed;
-    z-index: 9;
 }
 
-.header p{
-    margin: -25px 0 0 93px;
-    color:rgb(190, 215, 215);
-}
 
 .logo{
     margin: 15px 0px 0px 10px;
@@ -54,8 +49,7 @@ nav {
 nav ul {
     list-style-type: none;
     overflow: hidden;
-    margin: 17px 120px 0 0;
-
+    margin: 17px 0 0 0;
 }
 
 .nav_links{
@@ -97,15 +91,112 @@ button{
     border-radius: 5px;
     cursor: pointer;
     margin: 31px 50px 0px 25px;
+}
+
+button a{
     transition: all 0.3s ease 0s;
 }
 
-button:hover{
-    background-color: rgb(40, 150, 160);
+button a:hover{
+    background-color: rgb(41, 171, 185);
     color: rgb(164, 226, 233);
     
 }
 
-footer{
-    height: auto;
+.intro{
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    overflow: hidden;
+    clear: both;
+    padding-top: 105px;
+}
+
+.info1{
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    overflow: hidden;
+    clear: both;
+}
+.info2{
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    overflow: hidden;
+    clear: both;
+}
+.info3{
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    overflow: hidden;
+    clear: both;
+}
+.info4{
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    overflow: hidden;
+    clear: both;
+}
+
+.footer{
+    padding: 40px;
+    background-color: rgb(27, 27, 27);
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(41, 171, 185);
+
+}
+.footer .social a{
+    font-size: 16px;
+    color: inherit;
+    border: 1px solid rgb(41, 171, 185);
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 1;
+}
+.footer .social a:hover{ 
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover{
+    color: rgb(41, 171, 185);
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
 }
