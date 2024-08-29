@@ -10,7 +10,7 @@ body {
 }
 
 #page_container {
-    width: 100%;
+    width: 1645px;
     margin: 0 auto;
     box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
     overflow-x: hidden;
@@ -27,7 +27,7 @@ li, a, button{
     justify-content:space-between;
     align-content: center;
     height: 100px;
-    width: 100%;
+    width: 1645px;
     margin: -8px 0 30px 0;
     border-bottom: 5px solid rgba(167,175,175,1);
     position: fixed;
@@ -36,7 +36,7 @@ li, a, button{
 
 .header p{
     margin: -25px 0 0 93px;
-    color:rgb(190, 215, 215);
+    color:rgb(110, 124, 124);
 }
 
 .logo{
@@ -91,7 +91,7 @@ nav li a {
 .cta{
     padding: 10px 20px;
     height: 41px;
-    color: rgb(71, 71, 71);
+    color: #24252a;
     background-color: rgb(41, 171, 185);
     border: none;
     font-size: 16px;
@@ -110,12 +110,13 @@ nav li a {
     height: 960px;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("resources/Lake-Pupuke/our\ geography1.jpeg") no-repeat center/cover;
+        url("resources/Lake-Pupuke/our-geography1.jpeg") no-repeat center/cover;
     overflow: hidden;
     clear: both;
     display: flex;
     align-items: center;
     padding: 0 0 0 120px;
+
 }
 
 .intro-box{
@@ -249,11 +250,12 @@ nav li a {
     clear: both;
     justify-content: center;
     display: flex;
+    
 }
 
 .img-gallery-title{
     font-size: 50px;
-    margin: 40px 0 0 40px;
+    margin: 70px 0 0 70px;
 }
 
 .img-gallery h2{
@@ -263,7 +265,8 @@ nav li a {
 
 .img-gallery-box{
     width: 1450px;
-    margin: 120px 60px;
+    margin: 50px 60px 120px 60px;
+    
 }
 
 .img-gallery h2{
@@ -272,6 +275,8 @@ nav li a {
     text-align: center;
     margin: 90px 0 0 10px;
 }
+
+
 
 .img-gallery p{
     font-size: 20px;
@@ -291,6 +296,7 @@ nav li a {
 .photo-1{
     width:1050px;
     height:650px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
     float: left;
     background: 
     url("resources/Rangitoto-Island/rangitoto-volcano-nz.jpg") no-repeat center/cover;
@@ -299,6 +305,7 @@ nav li a {
 .photo-2{
     width: 350px;
     height:650px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
     float: right;
     background: 
     url("resources/Rangitoto-Island/1024px-Rangitoto_Lighthouse.jpg") no-repeat center/cover;
@@ -308,6 +315,7 @@ nav li a {
     width: 449px;
     height:300px;
     margin: 50px 50px 0 0;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
     float: left;
     background: 
     url("resources/Rangitoto-Island/5334716394_01f2041445_b.jpg") no-repeat center/cover;
@@ -317,6 +325,7 @@ nav li a {
     width: 449px;
     height:300px;
     margin: 50px 0 0 0;
+        box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
     float: left;
     background: 
     url("resources/Waitemata-harbour/1024px-Waitematā_Harbour_Eastwards_View.jpg") no-repeat center/cover;
@@ -327,6 +336,7 @@ nav li a {
     height:300px;
     margin: 50px 0 0 0;
     float: right;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
     background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("resources/Waitemata-harbour/1024px-Bench_overlooking_the_Waitemata_Harbour\,_Auckland_-_0088.jpg") no-repeat center/cover;
@@ -357,12 +367,13 @@ nav li a {
     background: rgba(0, 0, 0, 0.7);
 }
 
-.site-box{
-    
-}
+
+
 .box-1{
-    width: 360px;
+    width: 361.25px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
     height: 300px;
+    transition: 0.2s ease-in;
     border-radius: 5px;
     align-content: center;
     margin: 30px 20px 30px 40px;
@@ -372,9 +383,18 @@ nav li a {
         url("resources/Lake-Pupuke/4403859836_116c583ee9_o.jpg") no-repeat center/cover;
 }
 
+
+.box-1:hover{
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("resources/Lake-Pupuke/4403859836_116c583ee9_o.jpg") no-repeat center/cover;
+}
+
 .box-2{
-    width: 360px;
+    width: 361.25px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
     height: 300px;
+    transition: 0.3s ease-in;
     border-radius: 5px;
     align-content: center;
     margin: 30px 20px 30px 20px;
@@ -385,9 +405,17 @@ nav li a {
     
 }
 
+.box-2:hover{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("resources/Rangitoto-Island/2740175257_71e703fde3_k.jpg") no-repeat center/cover;
+}
+
 .box-3{
-    width: 360px;
+    width: 361.25px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
     height: 300px;
+    transition: 0.3s ease-in;
     border-radius: 5px;
     align-content: center;
     margin: 30px 20px 30px 20px;
@@ -397,9 +425,17 @@ nav li a {
         url("resources/Waitemata-harbour/7175925345_3ea2ec0971_5k.jpg") no-repeat center/cover;
 }
 
+
+.box-3:hover{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("resources/Waitemata-harbour/7175925345_3ea2ec0971_5k.jpg") no-repeat center/cover;
+}
 .box-4{
-    width: 360px;
+    width: 361.25px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
     height: 300px;
+    transition: 0.3s ease-in;
     border-radius: 5px;
     align-content: center;
     margin: 30px 40px 30px 20px;
@@ -409,60 +445,176 @@ nav li a {
         url("resources/Waitemata-harbour/1024px-Waitemata_Harbour-mouth_aerial.jpg") no-repeat center/cover;
 }
 
-.footer{
-    padding: 40px;
-    background-color: #fff;
+
+.box-4:hover{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("resources/Waitemata-harbour/1024px-Waitemata_Harbour-mouth_aerial.jpg") no-repeat center/cover;
 }
 
-.footer .social{
-    text-align: center;
-    padding-bottom: 25px;
-    color: rgb(41, 171, 185);
-
-}
-.footer .social a{
-    font-size: 24px;
-    color: inherit;
-    border: 1px solid rgb(41, 171, 185);
-    width: 40px;
-    height: 40px;
-    line-height: 38px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 8px;
-    opacity: 0.75;
-}
-.footer .social a:hover{ 
-    opacity: 0.9;
-}
-
-.footer ul {
-    margin-top: 0;
+footer *{
+    box-sizing: border-box;
     padding: 0;
+    margin: 0;
+}
+
+footer ul{
     list-style: none;
-    margin-bottom: 0;
-    text-align: center;
-    color: #24252A;
 }
 
-.footer ul li a{
-    color:inherit;
+footer{
+    color: #000000;
+    background: #ffffff;
+    border-top: 1px solid #24252A;
+}
+
+footer p{
+    color: #000000;
+    max-width: 25em;
+    font-size: 0.9em;
+    line-height: 23px;
+}
+
+footer .menu a{
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    transition: all 0.3s ease 0s;
 }
 
-.footer ul li{
-    display: inline-block;
-    padding: 0 15px;
-}
-
-.footer ul li a:hover{
+footer a{
+    text-decoration: none;
     color: rgb(41, 171, 185);
 }
-.footer .copyright{
-    margin-top: 15px;
-    text-align: center;
-    font-size: 13px;
-    color: #24252A;
+
+
+footer .brand{
+    color: #000;
+    transition: 0.3s;
+}
+
+footer .brand:hover{
+    color:  rgb(41, 171, 185);
+}
+
+
+footer h4{
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+footer .container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.footer1{
+    position: relative;
+    background: #ffffff;
+    background-size: cover;
+}
+
+.footer1::before{
+    content: '';
+    background:rgba(0 , 0, 0, 0) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.footer1 .container{
+    position: relative;
+
+}
+
+.footer1 .footer-top .container,
+.footer1 .col2,
+.footer1 .footer-bottom .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4em;   
+}
+
+.footer1 .footer-bottom .container{
+    padding: 1em 2em;
+    align-items: center;
+}
+
+.footer1 .menu{
+    margin: 0.2em 0.2em;
+}
+
+.footer1 .menu li{
+    margin-bottom: 0.6em;
+}
+
+.footer1 .menu a{
+    transition: 0.3s;
+}
+
+.footer1 .menu a:hover{
+    text-decoration: underline;
+    color: rgb(41, 171, 185);
+}
+
+.brand{
+    display: block;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.media-icons li,
+.service-icons li{
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+
+.media-icons a{
+    font-size: 1.1em;
+    width: 2em;
+    height: 2em;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.media-icons a{
+    color: #000;
+}
+
+.media-icons a:hover{
+    color: #ffffff;
+    background:rgb(41, 171, 185);
+    border: 1px solid rgb(41, 171, 185);
+}
+
+.service-icons a{
+    font-size: 1.6em;
+    transition: 0.3s;
+}
+
+.service-icons a:hover{
+    color: #dbdbdb;
+}
+
+.footer-bottom{
+    border-top: 1px #dbdbdb solid;
+    background: #ececec;
+}
+
+@media screen and (max-width:900px){
+    .footer1 .footer-top .container,
+    .footer1 .footer-bottom .container{
+        flex-direction: column;
+    }
+    .footer1 .col2{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
 }

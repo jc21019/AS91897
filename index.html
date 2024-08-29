@@ -7,34 +7,37 @@
     <title>Home</title>
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="icon" href="https://lh5.googleusercontent.com/YZ82qO9sW9vS-c4XwA1x1aNo5yIvFJs1s172AUe80jIAPkw3v8vxtClX7baZQNhNyj6WuOYVgSlJGodWWRn817DIRyELA68CX6zG0HmlyKVljXs9">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </head>
 
 <body>
     <div id="page_container">
         <header class="header">
-            <a href="index.html" target="_blank"><img class = "logo" src="Styles/resources/logowithtext.png" alt="logo"><p>Satellite Site</p></a>
+            <a href="index.html"><img class = "logo" src="Styles/resources/logowithtext.png" alt="logo"><p>Satellite Site</p></a>
 
             <nav>
                 <ul class="nav_links">
-                    <li><a href="index.html" target="_blank">Home</a></li>
-                    <li><a href="page2.html" target="_blank">Pupuke</a></li>
-                    <li><a href="page2.html#intro-2-anchor" target="_blank">Rangitoto</a></li>
-                    <li><a href="page3.html" target="_blank">Waitemata</a></li>
-                    <li><a href="page3.html#intro-2-anchor" target="_blank">Ngāti Pāoa</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Pupuke</a></li>
+                    <li><a href="page2.html#intro-2-anchor">Rangitoto</a></li>
+                    <li><a href="page3.html">Waitematā</a></li>
+                    <li><a href="page3.html#intro-2-anchor">Ngāti Pāoa</a></li>
                 </ul>
                 
             </nav>
-            <a class = "cta" href="index.html#about-us-anchor" target="_blank">About Us</a>
+            <a class = "cta" href="index.html#about-us-anchor">About Us</a>
         </header>
 
-        <section class="intro"> 
-            <div class="intro-box">
-                <h2>Westlake in it's Locality</h2><br><br>
-                <h4>'Ehara taku toa i te toa takitahi, engari he toa takitini'- success is not the work of an individual, but the work of many.</h4>
-            </div>
-
-        </section>
+        <a data-fancybox="gallery" href="Styles/resources/Lake-Pupuke/our-geography1.jpeg">
+            <section class="intro">  
+                <div class="intro-box">
+                    <h2>Westlake in its Locality</h2><br><br>
+                    <h4>'Ehara taku toa i te toa takitahi, engari he toa takitini'- success is not the work of an individual, but the work of many.</h4>
+                </div>
+            </section>
+        </a>
                     
         <div id="about-us-anchor" class="anchor"></div>
     
@@ -55,27 +58,29 @@
             </div>
         </section>
 
-        <section class="poem">
-            <h2>'Rangitoto'</h2>
-            <h3>nā Johnny Waititi</h3>
-            <p class="maori">Rangitoto te maunga<br>
-            Waitematā te moana <br>
-            Ngāti Paoa te iwi e<br>
-            Ko Pupuke te roto<br>
-            Anei ngā kura o Te Kāhui Ako<br>
-            E ngā iwi, tēnā koutou<br>
-            E ngā iwi, tēnā koutou<br>
-            <br>
-            <h3>English Translation:</h3><br>
-            <p class="english">Rangitoto is the mountain<br>
-            Waitemata is the ocean<br>
-            Ngati Paoa are the iwi<br>
-            Pupuke is the lake<br>
-            Here are the schools of our Community of learning<br>
-            Everyone, welcome.<br>
-            Everyone, welcome.<br>
-            </p>
-        </section>
+        <a data-fancybox="gallery" href="Styles/resources/Rangitoto-Island/2740175257_71e703fde3_k.jpg">
+            <section class="poem">
+                <h2>'Rangitoto'</h2>
+                <h3>nā Johnny Waititi</h3>
+                <p class="maori">Rangitoto te maunga<br>
+                Waitematā te moana <br>
+                Ngāti Paoa te iwi e<br>
+                Ko Pupuke te roto<br>
+                Anei ngā kura o Te Kāhui Ako<br>
+                E ngā iwi, tēnā koutou<br>
+                E ngā iwi, tēnā koutou<br>
+                <br>
+                <h3>English Translation:</h3><br>
+                <p class="english">Rangitoto is the mountain<br>
+                Waitemata is the ocean<br>
+                Ngati Paoa are the iwi<br>
+                Pupuke is the lake<br>
+                Here are the schools of our Community of learning<br>
+                Everyone, welcome.<br>
+                Everyone, welcome.<br>
+                </p>
+            </section>
+        </a>
 
         <div class="img-gallery-title">
             <h2>Photo Gallery</h2>
@@ -83,48 +88,69 @@
         <section class="img-gallery">
             <div class="img-gallery-box">    
                 <div class="tall-photo">
-                    <div class="photo-1">
-                        <p>Mount Rangitoto</p>
-                    </div>
-                    <div class="photo-2">
-                        <p>Mount Rangitoto</p>
-                    </div>
+                    
+                    <a data-fancybox="gallery" href="Styles/resources/Rangitoto-Island/rangitoto-volcano-nz.jpg">
+                        <div class="photo-1">
+                            <p>Mount Rangitoto</p>
+                        </div>
+                    </a>
+                    <a data-fancybox="gallery" href="Styles/resources/Rangitoto-Island/1024px-Rangitoto_Lighthouse.jpg">
+                        <div class="photo-2">
+                            <p>Mount Rangitoto</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="short-photo">
-                    <div class="photo-3">
-                        <p>Mount Rangitoto</p>
-                    </div>
-                    <div class="photo-4">
-                        <p>Waitematā Harbour</p>
-                    </div>
-                    <div class="more-photo">
-                    <h2>8+</h2>
-                    </div>
+                    <a data-fancybox="gallery" href="Styles/resources/Rangitoto-Island/5334716394_01f2041445_b.jpg">
+                        <div class="photo-3">
+                            <p>Mount Rangitoto</p>
+                        </div>
+                    </a>
+                    <a data-fancybox="gallery" href="Styles/resources/Waitemata-harbour/1024px-Waitematā_Harbour_Eastwards_View.jpg">
+                        <div class="photo-4">
+                            <p>Waitematā Harbour</p>
+                        </div>
+                    </a>
+                    <a data-fancybox="gallery" href="Styles/resources/Waitemata-harbour/1024px-Bench_overlooking_the_Waitemata_Harbour,_Auckland_-_0088.jpg">
+                        <div class="more-photo">
+                        <h2>8+</h2>
+                        </div>
+                    </a>
                 </div>
+            </div>
+            <div class="gallery-photos">
+                <a data-fancybox="gallery" href="Styles/resources/Waitemata-harbour/1024px-Waitemata_Harbour-mouth_aerial.jpg"></a>
+                <a data-fancybox="gallery" href="Styles/resources/Lake-Pupuke/4403095001_1e47703d48_o.jpg"></a>
+                <a data-fancybox="gallery" href="Styles/resources/Lake-Pupuke/4403859836_116c583ee9_o.jpg"></a>
+                <a data-fancybox="gallery" href="Styles/resources/Waitemata-harbour/7175925345_3ea2ec0971_5k.jpg"></a>
+                <a data-fancybox="gallery" href="Styles/resources/Lake-Pupuke/4628687442_f3368549ac_k.jpg"></a>
+                <a data-fancybox="gallery" href="Styles/resources/Rangitoto-Island/5334716394_01f2041445_b.jpg"></a>
+                <a data-fancybox="gallery" href="Styles/resources/Rangitoto-Island/25532825031_8426877ed9_k.jpg"></a>
+                <a data-fancybox="gallery" href="Styles/resources/Lake-Pupuke/heart-shaped.png"></a>
             </div>
         </section>
 
         <section class="others">
             <div class="site-box">
-                <a href="page2.html" target="_blank">
+                <a href="page2.html">
                     <div class="box-1">
                         <h2>Pupuke</h2>
                         <p>Click for more</p>
                     </div>
                 </a>
-                <a href="page2.html#intro-2-anchor" target="_blank">
+                <a href="page2.html#intro-2-anchor">
                     <div class="box-2">
                         <h2>Rangitoto</h2>
                         <p>Click for more</p>
                     </div>
                 </a>
-                <a href="page3.html" target="_blank">
+                <a href="page3.html">
                     <div class="box-3">
                         <h2>Waitematā</h2>
                         <p>Click for more</p>
                     </div>
                 </a>
-                <a href="page3.html#intro-2-anchor" target="_blank">
+                <a href="page3.html#intro-2-anchor">
                     <div class="box-4">
                         <h2>Ngāti Pāoa</h2>
                         <p>Click for more</p>
@@ -132,27 +158,63 @@
                 </a>
             </div>
         </section>
-        <section class="footer">
-            <div class="social">
-                <a href="u-cant-be-here.html" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="u-cant-be-here.html" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="u-cant-be-here.html" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a href="u-cant-be-here.html" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="u-cant-be-here.html" target="_blank"><i class="fab fa-snapchat"></i></a>
-            </div>
 
-            <ul class="list">
-                <li><a href="u-cant-be-here.html" target="_blank">Home</a></li>
-                <li><a href="u-cant-be-here.html" target="_blank">Services</a></li>
-                <li><a href="u-cant-be-here.html" target="_blank">About</a></li>
-                <li><a href="u-cant-be-here.html" target="_blank">Terms</a></li>
-                <li><a href="u-cant-be-here.html" target="_blank">Privacy Policy</a></li>
-            </ul>
-            <h2 class="copyright">
-                All content and information in this page was source from Wikipedia.org <br>
-                licensed under CC by SA
-            </h2>
-        </section>
+        <footer class="footer1">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="col1">
+                        <a href="#" class="brand">Pupuke Kāhui Ako</a>
+                        <img src="Styles/resources/Lake-Pupuke/kahui-ako-round-logo-2-3.jpg" alt="logo" width="230">
+                    </div>
+                    <div class="col2">
+                        <ul class="menu">
+                            <li>
+                                <h4>Article</h4>
+                            </li>
+                            <li>
+                                <a href="page2.html">Pupuke</a>
+                            </li>
+                            <li>
+                                <a href="page2.html#intro-2-anchor">Rangitoto</a>
+                            </li>
+                            <li>
+                                <a href="page3.html">Waitematā</a>
+                            </li>
+                            <li>
+                                <a href="page3.html#intro-2-anchor">Ngāti Pāoa</a>
+                            </li>
+                        </ul>
+                        <ul class="menu">
+                            <li>
+                                <h4>Main</h4>
+                            </li>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="https://www.tekaahuiakoopupuke.co.nz/" target="_blank">Te Kāhui Ako O Pupuke</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col3">
+                        <h4>Additional Info</h4>
+                        <p>
+                            We as a community look to create a rich, collaborative culture that unites kura (schools), pouako (teachers), ākonga (students) and whānau to work collectively on common goals for the benefit of all.<br><br>
+                            All content and information in this page was sourced from Wikipedia.org licensed under CC by SA  
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p> 
+                            Pupuke Kāhui Ako 
+                            - All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
     </div>
 </body>
 </html>

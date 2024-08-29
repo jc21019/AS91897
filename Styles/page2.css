@@ -10,7 +10,7 @@ body {
 }
 
 #page_container {
-    width: 100%;
+    width: 1645px;
     margin: 0 auto;
     box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
     overflow-x: hidden;
@@ -27,7 +27,7 @@ li, a, button{
     justify-content:space-between;
     align-content: center;
     height: 100px;
-    width: 100%;
+    width: 1645px;
     margin: -8px 0 30px 0;
     border-bottom: 5px solid rgba(167,175,175,1);
     position: fixed;
@@ -36,7 +36,7 @@ li, a, button{
 
 .header p{
     margin: -25px 0 0 93px;
-    color:rgb(190, 215, 215);
+    color:rgb(110, 124, 124);
 }
 
 .logo{
@@ -91,7 +91,7 @@ nav li a {
 .cta{
     padding: 10px 20px;
     height: 41px;
-    color: rgb(71, 71, 71);
+    color: #24252a;
     background-color: rgb(41, 171, 185);
     border: none;
     font-size: 16px;
@@ -128,9 +128,9 @@ nav li a {
 }
 
 .title h2{
-    font-size: 120px;
+    font-size: 150px;
     color: rgb(126, 230, 230);
-    margin: 150px 0 0 0;
+    margin: 120px 0 0 0;
 }
 
 .pupuke-info{
@@ -199,15 +199,20 @@ nav li a {
 .section-7{
     width: 820px;
     height: 600px;
-    margin: 35px 35px 0 0;
+    margin: 95px 35px 0 0;
     border-radius: 30px;
     float: right;
-    background: url("resources/Lake-Pupuke/lake\ Takapuna\ 1930.webp") no-repeat center/cover;
+    background: url("resources/Lake-Pupuke/lake-Takapuna-1930.webp") no-repeat center/cover;
 }
 
 .section-8{
     margin: 25px 35px 0 35px;
     float: left;
+}
+
+.section-8 a{
+    color: blue;
+    font-size: 20px;
 }
 
 .anchor{
@@ -239,20 +244,20 @@ nav li a {
 }
 
 .title-2 h2{
-    font-size: 120px;
+    font-size: 150px;
     color: rgb(126, 230, 230);
-    margin: 75px 0 0 0;
+    margin: 45px 0 0 0;
 }
 
 .rangitoto-info{
-    height: 3145px;
+    height: 3370px;
     background: rgb(174, 219, 214);
     overflow: hidden;
     clear: both;
 }
 
 .rangitoto-info-box{
-    height: 3080px;
+    height: 3300px;
     background: #ffffff;
     margin: 35px;
     border-radius: 30px;
@@ -287,6 +292,8 @@ nav li a {
     margin: 60px 35px 35px 35px;
     float: left;
 }
+
+
 .section2-4{
     width: 95.5%;
     height: 700px;
@@ -314,64 +321,185 @@ nav li a {
 }
 .section2-8{
     margin: 0px 35px 35px 35px;
+    float: left;    
+}
+.section2-9{
+    float: left;
+    height: 150px;
+    border-radius: 30px;
+    margin: 0px 35px 35px 35px;
+    width: 1500px;
+    background: url("resources/Rangitoto-Island/Rangitoto_Island_banner.jpg") no-repeat center/cover;
+}
+.section2-10{
+    margin: 0px 35px 35px 35px;
     float: left;
 }
 
-.footer{
-    padding: 40px;
-    background-color: #fff;
-    border-top: 1px solid lightgray;
-}
 
-.footer .social{
-    text-align: center;
-    padding-bottom: 25px;
-    color: rgb(41, 171, 185);
-
-}
-.footer .social a{
-    font-size: 24px;
-    color: inherit;
-    border: 1px solid rgb(41, 171, 185);
-    width: 40px;
-    height: 40px;
-    line-height: 38px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 8px;
-    opacity: 0.75;
-}
-.footer .social a:hover{ 
-    opacity: 0.9;
-}
-
-.footer ul {
-    margin-top: 0;
+footer *{
+    box-sizing: border-box;
     padding: 0;
+    margin: 0;
+}
+
+footer ul{
     list-style: none;
-    margin-bottom: 0;
-    text-align: center;
-    color: #24252A;
 }
 
-.footer ul li a{
-    color:inherit;
+footer{
+    color: #000000;
+    background: #ffffff;
+    border-top: 1px solid #24252A;
+}
+
+footer p{
+    color: #000000;
+    max-width: 25em;
+    font-size: 0.9em;
+    line-height: 23px;
+}
+
+footer .menu a{
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    transition: all 0.3s ease 0s;
 }
 
-.footer ul li{
-    display: inline-block;
-    padding: 0 15px;
-}
-
-.footer ul li a:hover{
+footer a{
+    text-decoration: none;
     color: rgb(41, 171, 185);
 }
-.footer .copyright{
-    margin-top: 15px;
-    text-align: center;
-    font-size: 13px;
-    color: #24252A;
+
+
+footer .brand{
+    color: #000;
+    transition: 0.3s;
+}
+
+footer .brand:hover{
+    color:  rgb(41, 171, 185);
+}
+
+
+footer h4{
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+footer .container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.footer1{
+    position: relative;
+    background: #ffffff;
+    background-size: cover;
+}
+
+.footer1::before{
+    content: '';
+    background:rgba(0 , 0, 0, 0) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.footer1 .container{
+    position: relative;
+
+}
+
+.footer1 .footer-top .container,
+.footer1 .col2,
+.footer1 .footer-bottom .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4em;   
+}
+
+.footer1 .footer-bottom .container{
+    padding: 1em 2em;
+    align-items: center;
+}
+
+.footer1 .menu{
+    margin: 0.2em 0.2em;
+}
+
+.footer1 .menu li{
+    margin-bottom: 0.6em;
+}
+
+.footer1 .menu a{
+    transition: 0.3s;
+}
+
+.footer1 .menu a:hover{
+    text-decoration: underline;
+    color: rgb(41, 171, 185);
+}
+
+.brand{
+    display: block;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.media-icons li,
+.service-icons li{
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+
+.media-icons a{
+    font-size: 1.1em;
+    width: 2em;
+    height: 2em;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.media-icons a{
+    color: #000;
+}
+
+.media-icons a:hover{
+    color: #ffffff;
+    background:rgb(41, 171, 185);
+    border: 1px solid rgb(41, 171, 185);
+}
+
+.service-icons a{
+    font-size: 1.6em;
+    transition: 0.3s;
+}
+
+.service-icons a:hover{
+    color: #dbdbdb;
+}
+
+.footer-bottom{
+    border-top: 1px #dbdbdb solid;
+    background: #ececec;
+}
+
+@media screen and (max-width:900px){
+    .footer1 .footer-top .container,
+    .footer1 .footer-bottom .container{
+        flex-direction: column;
+    }
+    .footer1 .col2{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
 }
